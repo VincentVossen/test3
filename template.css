@@ -1,0 +1,419 @@
+
+.grid-container {
+  font-size:100%;
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-columns: 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% ;
+  grid-template-rows: auto 5px auto 5px auto 5px auto;
+  margin:auto;
+
+
+}
+
+.grid-element {
+  padding: 20px;
+  font-size: 2em;
+}
+
+.header {
+  grid-column-start:1;
+  grid-column-end: 20;
+  grid-row-start: 1;
+  grid-row-end:2;
+}
+
+/*.sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  background: #6F9;
+}*/
+
+.main {
+  display: grid;
+  grid-template-columns: 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% 9.5% 0.5% ;
+  grid-template-rows: auto 5px auto 5px auto 5px auto ;
+
+  grid-column-start: 1;
+  grid-column-end: 20;
+  grid-row-start: 2;
+  grid-row-end:10;
+
+}
+
+.welcome {
+  grid-column-start: 1;
+  grid-column-end: 20;
+  grid-row-start:1;
+  grid-row-end:2 ;
+}
+
+.portfolio {
+  background-image: url("designmeph1.jpeg");
+  max-width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns:1% 32% 1% 32% 1% 32% 1%;
+  grid-template-rows: auto 15px auto 15px auto 15px auto ;
+
+  grid-column-start: 1;
+  grid-column-end: 20;
+  grid-row-start:3;
+  grid-row-end:4 ;
+
+}
+
+.worktitel{
+grid-column-start: 1;
+grid-column-end: 20;
+grid-row-start:1;
+grid-row-end:2 ;
+}
+
+.work1{
+
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start:3;
+grid-row-end:4 ;
+}
+
+.work1 img{
+  max-width:85%;
+  border: 10px solid rgb(254,112,150);
+}
+
+.work2{
+grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start:3;
+grid-row-end:4 ;
+}
+.work2 img{
+  max-width:85%;
+  border: 10px solid rgb(255,223,130);
+}
+
+.work3{
+grid-column-start: 6;
+grid-column-end: 7;
+grid-row-start:3;
+grid-row-end:4 ;
+}
+.work3 img{
+  max-width:85%;
+  border: 10px solid rgb(158,230,206);
+}
+
+
+.about {
+  display: grid;
+  grid-template-columns:1% 48% 2% 48% 1% ;
+  grid-template-rows: auto 5px auto 5px auto 5px auto ;
+
+  grid-column-start: 1;
+  grid-column-end: 20;
+  grid-row-start:5;
+  grid-row-end:6 ;
+}
+
+.aboutimage{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start:3;
+grid-row-end:4 ;
+}
+
+.aboutimage img{
+  max-width:140%;
+  border: 10px solid rgb(255,223,130);
+
+
+  }
+.abouttext{
+grid-column-start: 4;
+grid-column-end: 7;
+grid-row-start:3;
+grid-row-end:4 ;
+background-color: white;
+border: 10px solid rgb(163,120,182);
+
+
+}
+
+
+
+
+.inspirators {
+  max-width: 100%;
+
+  background-image: url("designmeph2.jpeg");
+  display: grid;
+  grid-template-columns:19.2% 1% 19.2% 1% 19.2% 1% 19.2% 1%  ;
+  grid-template-rows: auto 5px auto 5px auto 5px auto ;
+
+  grid-column-start:1;
+  grid-column-end: 20;
+  grid-row-start:7;
+  grid-row-end:8;
+  background-color: red;
+
+}
+
+.inspiratorstitel{
+grid-column-start:1;
+grid-column-end: 20;
+grid-row-start:1;
+grid-row-end:2 ;
+background-color: white;
+border: 10px solid #F96;
+
+}
+.inspirators1 {
+  grid-column-start:1;
+  grid-column-end: 2;
+  grid-row-start:3;
+  grid-row-end:4;
+
+}
+
+.inspirators1 img{
+  max-width:100%;
+  border: 10px solid rgb(158,230,206);
+
+}
+
+.inspirators2 {
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start:3;
+  grid-row-end:4;
+
+}
+.inspirators2 img{
+  max-width:100%;
+  border: 10px solid rgb(254,112,150);
+
+}
+
+.inspirators3 {
+  grid-column-start:5;
+  grid-column-end: 6;
+  grid-row-start:3;
+  grid-row-end:4;
+
+}
+
+.inspirators3 img{
+  max-width:100%;
+  border: 10px solid rgb(163,120,182);
+}
+
+.inspirators4 {
+  grid-column-start:7;
+  grid-column-end: 8;
+  grid-row-start:3;
+  grid-row-end:4;
+
+}
+
+.inspirators4 img{
+  max-width:100%;
+  border: 10px solid rgb(255,223,130);
+}
+
+.inspirators5 {
+  grid-column-start:9;
+  grid-column-end: 20;
+  grid-row-start:3;
+  grid-row-end:4;
+
+}
+
+.inspirators5 img{
+  max-width:100%;
+  border: 10px solid rgb(95,201,197);
+}
+
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 20;
+  grid-row-start: 20;
+  grid-row-end: 20;
+  background: #F96;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+}
+
+
+.nav{
+
+      text-align:center;
+      width: 100%;
+      z-index: 10;
+      text-decoration:none;
+    }
+.nav a{
+     text-decoration: none;
+     color:black;
+   }
+.nav h1{
+      font-size:1.5em;
+      font-weight: 900;
+    }
+
+   ul.navigatie {
+        list-style-type: none;
+        margin:auto;
+        display:inline-block;
+
+    }
+   ul.navigatie li {
+     display:inline;
+
+    }
+
+    ul.navigatie li a {
+        font-size:0.5em;
+        font-weight:500;
+        float:left;
+        display:block;
+        color: black;
+        text-align: center;
+        padding: 6px 6px;
+        text-decoration: none;
+    }
+
+    ul.navigatie li a:hover{
+      background-color: red;color:white;
+    }
+
+
+
+    .banana{
+      max-width:100%;
+       display: block;
+       margin: auto;
+       margin-top: 0em;
+     }
+
+     .welcome h1{
+       margin-top: 2em;
+       font-size:0.5em;
+       font-weight: 900;
+       text-align: center;
+       color: black;
+     }
+
+     .arrow{
+       width: 6%;
+       height: 9%;
+       margin: auto;
+       display: block;
+       margin-bottom: 0.5em;
+    }
+
+
+    .worktitel{
+      background-color: white;
+      border: 10px solid rgb(163,120,182);
+
+
+    }
+
+    .worktitel h1{
+      font-size:0.25em;
+      font-weight:900;
+      color: black;
+
+    }
+
+
+   .worktitel ul {
+     margin-top:-0.5em ;
+    }
+    .worktitel li {
+      display:inline;
+      font-size:0.2em;
+
+    }
+    .worktitel a{
+      text-decoration: none;
+      color: black;
+    }
+
+
+    .about h1{
+      font-size:0.25em;
+      font-weight:900;
+      color: black;
+      margin-bottom: 1%;
+
+    }
+    .about p{
+      font-size:0.20em;
+      font-weight:300;
+      color: black;
+      line-height: 1.40em;
+
+    }
+    .inspiratorstitel h1{
+      text-align: center;
+      font-size:0.25em;
+      font-weight:900;
+      color: black;
+
+    }
+
+    .inspirators h3{
+      font-size:0.21em;
+      font-weight:900;
+      color: black;
+
+    }
+    .inspirators p{
+      font-size:0.2em;
+      font-weight:300;
+      color: black;
+      line-height: 1.40em;
+      text-align: left;
+
+    }
+.ring1{background-color: white;border: 10px solid rgb(163,120,182);max-width: 120%;}
+.ring2{background-color: white;border: 10px solid rgb(163,120,182);}
+.ring3{background-color: white;border: 10px solid rgb(163,120,182);}
+.ring4{background-color: white;border: 10px solid rgb(163,120,182);}
+.ring5{background-color: white;border: 10px solid rgb(163,120,182);}
+
+
+
+
+
+
+
+.visit{border: 10px solid rgb(255,223,130)}
+
+.onzichtbaar{display: none;}
+
+    @media screen and (max-width: 640px){
+             ul.navigatie{width:100%;}
+             ul.navigatie li {display:block;}
+             ul.navigatie li a {width: 100%;}
+             nav h1{margin: auto;font-size:1.5em;font-weight: 900;width: 70%;}
+             .welcome h1{margin: auto;margin-top: 1em;font-size:0.5em;font-weight: 900; text-align: center;width: 50%;}
+           }
